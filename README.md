@@ -19,7 +19,7 @@ A completely self-contained SigNoz deployment in a single Docker container. This
 
 ```bash
 # Download the example compose file
-wget https://raw.githubusercontent.com/Aetherall/signoz-standalone/main/docker-compose.example.yml -O docker-compose.yml
+wget https://raw.githubusercontent.com/Aetherall/signoz-standalone/refs/heads/master/docker-compose.example.yml -O docker-compose.yml
 
 # Start SigNoz
 docker compose up -d
